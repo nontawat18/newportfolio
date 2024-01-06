@@ -6,5 +6,5 @@ app.use(express.json({ extended: false }));
 
 app.use("/api/profile", profile);
 
-const PORT = 8080;
+const PORT = 8000;
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
