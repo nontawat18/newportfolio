@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
-const product = require("./routes/product");
+const profile = require("./routes/profile");
 
 app.use(express.json({ extended: false }));
 
-app.use("/api/product", product);
+app.use("/api/profile", profile);
 
 const PORT = 8080;
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
