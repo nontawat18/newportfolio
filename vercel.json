@@ -12,7 +12,7 @@
     //         "dest": "/"
     //     }
     // ],
-    // "functions": {
+    "functions": {
         "api/**/*.js": {
         "runtime": "node@14",
         "maxDuration": 300
