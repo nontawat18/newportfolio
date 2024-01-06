@@ -11,5 +11,11 @@
             "src": "/(.*)",
             "dest": "/"
         }
-    ]
+    ],
+    "functions": {
+    "api/**/*.js": {
+      "runtime": "node@14",
+      "maxDuration": 30
+    }
+  }
   }
