@@ -6,13 +6,13 @@
     //         "use": "@vercel/node"
     //     }
     // ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ],
-    "functions": {
+    // "routes": [
+    //     {
+    //         "src": "/(.*)",
+    //         "dest": "/"
+    //     }
+    // ],
+    // "functions": {
         "api/**/*.js": {
         "runtime": "node@14",
         "maxDuration": 300
